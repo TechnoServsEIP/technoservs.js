@@ -1,0 +1,25 @@
+{
+  "name": "technoservs.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechnoServsEIP/technoservs.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TechnoServsEIP/technoservs.js/issues"
+  },
+  "homepage": "https://github.com/TechnoServsEIP/technoservs.js#readme",
+  "devDependencies": {
+    "rollup": "^2.23.0"
+  }
+}

@@ -60,7 +60,7 @@ export default class Docker {
 
   playersOnline(opts) {
     return this.API.get('/docker/playersonline', {
-      body: {
+      data: {
         user_id: opts.user_id,
         container_id: opts.container_id
       }

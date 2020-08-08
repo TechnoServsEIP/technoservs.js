@@ -1,0 +1,50 @@
+{
+  "coverage": "58.82%",
+  "expectCount": 34,
+  "actualCount": 20,
+  "files": {
+    "src/Docker/index.js": {
+      "expectCount": 12,
+      "actualCount": 9,
+      "undocumentLines": [
+        5,
+        10,
+        11
+      ]
+    },
+    "src/api.js": {
+      "expectCount": 6,
+      "actualCount": 3,
+      "undocumentLines": [
+        1,
+        12,
+        31
+      ]
+    },
+    "src/error.js": {
+      "expectCount": 6,
+      "actualCount": 3,
+      "undocumentLines": [
+        1,
+        14,
+        15
+      ]
+    },
+    "src/index.js": {
+      "expectCount": 9,
+      "actualCount": 4,
+      "undocumentLines": [
+        27,
+        28,
+        50,
+        51,
+        52
+      ]
+    },
+    "src/utils.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    }
+  }
+}

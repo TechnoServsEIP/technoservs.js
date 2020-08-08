@@ -1,0 +1,1541 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/Docker/index.js",
+    "content": "import {\n  API\n} from \"../api\";\n\nexport default class Docker {\n  /**\n   * @param {String} token\n   */\n  constructor(token) {\n    this._token = token;\n    this.API = new API(this._token);\n  }\n\n  /**\n   * List the server of a specific user\n   * @param {String} user_id \n   */\n  list(user_id) {\n    return this.API.post(\"/docker/list\", {\n      user_id: user_id,\n    });\n  }\n\n  /**\n   * Create a server\n   * @param {String} user_id The id of the user\n   * @param {String} game The game to create the server \n   * @param {String} server_name The name of your server\n   */\n  create(user_id, game, server_name) {\n    return this.API.post(\"/docker/create\", {\n      user_id: user_id,\n      game: game,\n      server_name: server_name,\n    });\n  }\n\n  /**\n   * Stop a server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container\n   */\n  stop(user_id, container_id) {\n    return this.API.post(\"/docker/stop\", {\n      user_id: user_id,\n      container_id: container_id,\n    });\n  }\n\n  /**\n   * Delete a server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container\n   */\n  delete(user_id, container_id) {\n    return this.API.post(\"/docker/delete\", {\n      user_id: user_id,\n      container_id: container_id,\n    });\n  }\n\n  /**\n   * Get the logs of a server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container\n   */\n  logs(user_id, container_id) {\n    return this.API.post(\"/docker/logs\", {\n      user_id: user_id,\n      container_id: container_id,\n    });\n  }\n\n  /**\n   * Get the info of a server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container\n   */\n  infos(user_id, container_id) {\n    return this.API.post(\"/docker/infos\", {\n      user_id: user_id,\n      container_id: container_id,\n    });\n  }\n\n  /**\n   * Update a server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container to update\n   * @param {String} server_name The new name of the server\n   */\n  update(user_id, container_id, server_name) {\n    return this.API.post(\"/docker/update\", {\n      user_id: user_id,\n      container_id: container_id,\n      server_name: server_name,\n    });\n  }\n\n  /**\n   * Get the players online on a specific server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container\n   */\n  playersOnline(user_id, container_id) {\n    return this.API.get(\"/docker/playersonline\", {\n      data: {\n        user_id: user_id,\n        container_id: container_id,\n      },\n    });\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/valentin/Documents/EIP_GitHub/technoservs.js/src/Docker/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "Docker",
+    "memberof": "src/Docker/index.js",
+    "static": true,
+    "longname": "src/Docker/index.js~Docker",
+    "access": "public",
+    "export": true,
+    "importPath": "technoservs.js/src/Docker/index.js",
+    "importStyle": "Docker",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 50,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Docker/index.js~Docker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Docker/index.js~Docker#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 9,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 51,
+    "kind": "member",
+    "name": "_token",
+    "memberof": "src/Docker/index.js~Docker",
+    "static": false,
+    "longname": "src/Docker/index.js~Docker#_token",
+    "access": "private",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "member",
+    "name": "API",
+    "memberof": "src/Docker/index.js~Docker",
+    "static": false,
+    "longname": "src/Docker/index.js~Docker#API",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "method",
+    "name": "list",
+    "memberof": "src/Docker/index.js~Docker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Docker/index.js~Docker#list",
+    "access": "public",
+    "description": "List the server of a specific user",
+    "lineNumber": 18,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "user_id",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "method",
+    "name": "create",
+    "memberof": "src/Docker/index.js~Docker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Docker/index.js~Docker#create",
+    "access": "public",
+    "description": "Create a server",
+    "lineNumber": 30,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "user_id",
+        "description": "The id of the user"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "game",
+        "description": "The game to create the server"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "server_name",
+        "description": "The name of your server"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "method",
+    "name": "stop",
+    "memberof": "src/Docker/index.js~Docker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Docker/index.js~Docker#stop",
+    "access": "public",
+    "description": "Stop a server",
+    "lineNumber": 43,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "user_id",
+        "description": "The id of the user"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "container_id",
+        "description": "The id of the container"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "method",
+    "name": "delete",
+    "memberof": "src/Docker/index.js~Docker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Docker/index.js~Docker#delete",
+    "access": "public",
+    "description": "Delete a server",
+    "lineNumber": 55,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "user_id",
+        "description": "The id of the user"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "container_id",
+        "description": "The id of the container"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "method",
+    "name": "logs",
+    "memberof": "src/Docker/index.js~Docker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Docker/index.js~Docker#logs",
+    "access": "public",
+    "description": "Get the logs of a server",
+    "lineNumber": 67,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "user_id",
+        "description": "The id of the user"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "container_id",
+        "description": "The id of the container"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "method",
+    "name": "infos",
+    "memberof": "src/Docker/index.js~Docker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Docker/index.js~Docker#infos",
+    "access": "public",
+    "description": "Get the info of a server",
+    "lineNumber": 79,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "user_id",
+        "description": "The id of the user"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "container_id",
+        "description": "The id of the container"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "method",
+    "name": "update",
+    "memberof": "src/Docker/index.js~Docker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Docker/index.js~Docker#update",
+    "access": "public",
+    "description": "Update a server",
+    "lineNumber": 92,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "user_id",
+        "description": "The id of the user"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "container_id",
+        "description": "The id of the container to update"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "server_name",
+        "description": "The new name of the server"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "playersOnline",
+    "memberof": "src/Docker/index.js~Docker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Docker/index.js~Docker#playersOnline",
+    "access": "public",
+    "description": "Get the players online on a specific server",
+    "lineNumber": 105,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "user_id",
+        "description": "The id of the user"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "container_id",
+        "description": "The id of the container"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "file",
+    "name": "src/api.js",
+    "content": "const axios = require(\"axios\");\n\n/**\n * API instance\n */\nexport class API {\n  /**\n   *\n   * @param {String} token - Bearer token\n   */\n  constructor(token) {\n    this._axios = axios.create({\n      baseURL:\n        \"https://x2021alsablue1371139462001.northeurope.cloudapp.azure.com:9096\",\n      headers: {\n        Authorization: `Bearer ${token}`,\n      },\n    });\n  }\n\n  /**\n   * Post request\n   * @param {String} path\n   * @param {Object} body\n   * @return {Promise} Pormise returned by the axios instance\n   */\n  post(path, body) {\n    return this._axios.post(path, body);\n  }\n\n  get(path, params) {\n    return this._axios.get(path, params);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/valentin/Documents/EIP_GitHub/technoservs.js/src/api.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 62,
+    "kind": "variable",
+    "name": "axios",
+    "memberof": "src/api.js",
+    "static": true,
+    "longname": "src/api.js~axios",
+    "access": "public",
+    "export": false,
+    "importPath": "technoservs.js/src/api.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "class",
+    "name": "API",
+    "memberof": "src/api.js",
+    "static": true,
+    "longname": "src/api.js~API",
+    "access": "public",
+    "export": true,
+    "importPath": "technoservs.js/src/api.js",
+    "importStyle": "{API}",
+    "description": "API instance",
+    "lineNumber": 6,
+    "interface": false
+  },
+  {
+    "__docId__": 64,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/api.js~API",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/api.js~API#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "Bearer token"
+      }
+    ]
+  },
+  {
+    "__docId__": 65,
+    "kind": "member",
+    "name": "_axios",
+    "memberof": "src/api.js~API",
+    "static": false,
+    "longname": "src/api.js~API#_axios",
+    "access": "private",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "method",
+    "name": "post",
+    "memberof": "src/api.js~API",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/api.js~API#post",
+    "access": "public",
+    "description": "Post request",
+    "lineNumber": 27,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "body",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "Pormise returned by the axios instance"
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "method",
+    "name": "get",
+    "memberof": "src/api.js~API",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/api.js~API#get",
+    "access": "public",
+    "description": null,
+    "lineNumber": 31,
+    "undocument": true,
+    "params": [
+      {
+        "name": "path",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "params",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "file",
+    "name": "src/error.js",
+    "content": "export class APIError extends Error {\n  /**\n   * Create a new instance of APIError\n   * @param {Number} status HTTP status code of the request\n   * @param {Object} data Body of the HTTP response (parsed as JSON)\n   */\n  constructor(status, data) {\n    let message = `An error occured code ${status}`\n\n    if (data) {\n      message = data\n    }\n    super(message)\n    this._status = status;\n    this._message = message;\n\n    Error.captureStackTrace(this, APIError)\n  }\n\n  /**\n   * HTTP Status code returned by the API\n   * @return {Number}\n   */\n  get status() {\n    return this._status\n  }\n\n  /**\n   * Body of the HTTP response (parsed as JSON)\n   * @return {Object}\n   */\n  get data() {\n    return this._data\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/valentin/Documents/EIP_GitHub/technoservs.js/src/error.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 69,
+    "kind": "class",
+    "name": "APIError",
+    "memberof": "src/error.js",
+    "static": true,
+    "longname": "src/error.js~APIError",
+    "access": "public",
+    "export": true,
+    "importPath": "technoservs.js/src/error.js",
+    "importStyle": "{APIError}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "Error"
+    ]
+  },
+  {
+    "__docId__": 70,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/error.js~APIError",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/error.js~APIError#constructor",
+    "access": "public",
+    "description": "Create a new instance of APIError",
+    "lineNumber": 7,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "status",
+        "description": "HTTP status code of the request"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "Body of the HTTP response (parsed as JSON)"
+      }
+    ]
+  },
+  {
+    "__docId__": 71,
+    "kind": "member",
+    "name": "_status",
+    "memberof": "src/error.js~APIError",
+    "static": false,
+    "longname": "src/error.js~APIError#_status",
+    "access": "private",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "member",
+    "name": "_message",
+    "memberof": "src/error.js~APIError",
+    "static": false,
+    "longname": "src/error.js~APIError#_message",
+    "access": "private",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 73,
+    "kind": "get",
+    "name": "status",
+    "memberof": "src/error.js~APIError",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/error.js~APIError#status",
+    "access": "public",
+    "description": "HTTP Status code returned by the API",
+    "lineNumber": 24,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Number"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "get",
+    "name": "data",
+    "memberof": "src/error.js~APIError",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/error.js~APIError#data",
+    "access": "public",
+    "description": "Body of the HTTP response (parsed as JSON)",
+    "lineNumber": 32,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 75,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import Docker from \"./Docker\";\nimport {\n  API\n} from \"./api\";\n\n/**\n * Authentication instance\n * @example\n * const {Auth} = require('technoservs.js');\n *\n *\n const auth = new Auth('your-email', 'your-password')\n *\n * auth.login().then((response) => {\n *  console.log(response)\n * }).catch((e) => {\n *  console.log(e)\n * })\n */\nexport class Auth {\n  /**\n   *\n   * @param {String} email - Email of the user\n   * @param {String} pwd - Password of the user\n   */\n  constructor(email, pwd) {\n    this._email = email;\n    this._pwd = pwd;\n  }\n\n  /**\n   * @return <Promise>\n   */\n  login() {\n    return new API().post(\"/user/login\", {\n      email: this._email,\n      password: this._pwd,\n    });\n  }\n}\n\n/**\n * Technoservs instance\n * @example\n * const {Technoservs} = require('technoservs.js')\n * \n * const ts = new Technoservs('your-token')\n */\nexport class Technoservs {\n  constructor(token) {\n    this._token = token;\n    this.Docker = new Docker(this._token);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/valentin/Documents/EIP_GitHub/technoservs.js/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 76,
+    "kind": "class",
+    "name": "Auth",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~Auth",
+    "access": "public",
+    "export": true,
+    "importPath": "technoservs.js/src/index.js",
+    "importStyle": "{Auth}",
+    "description": "Authentication instance",
+    "examples": [
+      "const {Auth} = require('technoservs.js');\n\n\nconst auth = new Auth('your-email', 'your-password')\n\nauth.login().then((response) => {\n console.log(response)\n}).catch((e) => {\n console.log(e)\n})"
+    ],
+    "lineNumber": 20,
+    "interface": false
+  },
+  {
+    "__docId__": 77,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/index.js~Auth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Auth#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 26,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "email",
+        "description": "Email of the user"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "pwd",
+        "description": "Password of the user"
+      }
+    ]
+  },
+  {
+    "__docId__": 78,
+    "kind": "member",
+    "name": "_email",
+    "memberof": "src/index.js~Auth",
+    "static": false,
+    "longname": "src/index.js~Auth#_email",
+    "access": "private",
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "member",
+    "name": "_pwd",
+    "memberof": "src/index.js~Auth",
+    "static": false,
+    "longname": "src/index.js~Auth#_pwd",
+    "access": "private",
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "method",
+    "name": "login",
+    "memberof": "src/index.js~Auth",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Auth#login",
+    "access": "public",
+    "description": "",
+    "lineNumber": 34,
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "<Promise>"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 81,
+    "kind": "class",
+    "name": "Technoservs",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~Technoservs",
+    "access": "public",
+    "export": true,
+    "importPath": "technoservs.js/src/index.js",
+    "importStyle": "{Technoservs}",
+    "description": "Technoservs instance",
+    "examples": [
+      "const {Technoservs} = require('technoservs.js')\n\nconst ts = new Technoservs('your-token')"
+    ],
+    "lineNumber": 49,
+    "interface": false
+  },
+  {
+    "__docId__": 82,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/index.js~Technoservs",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Technoservs#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 50,
+    "undocument": true
+  },
+  {
+    "__docId__": 83,
+    "kind": "member",
+    "name": "_token",
+    "memberof": "src/index.js~Technoservs",
+    "static": false,
+    "longname": "src/index.js~Technoservs#_token",
+    "access": "private",
+    "description": null,
+    "lineNumber": 51,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "member",
+    "name": "Docker",
+    "memberof": "src/index.js~Technoservs",
+    "static": false,
+    "longname": "src/index.js~Technoservs#Docker",
+    "access": "public",
+    "description": null,
+    "lineNumber": 52,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 85,
+    "kind": "file",
+    "name": "src/utils.js",
+    "content": "import {\n  APIError\n} from \"./error\"\n\n/**\n * @ignore\n */\nexport function unpackApi(axiosRequest) {\n  return new Promise((resolve, reject) => {\n    axiosRequest.then((response) => {\n      resolve(response.data)\n    }).catch((e) => {\n      reject(new APIError(e.responses.status, e.response.data))\n    })\n  })\n}\n",
+    "static": true,
+    "longname": "/Users/valentin/Documents/EIP_GitHub/technoservs.js/src/utils.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 86,
+    "kind": "function",
+    "name": "unpackApi",
+    "memberof": "src/utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils.js~unpackApi",
+    "access": "public",
+    "export": true,
+    "importPath": "technoservs.js/src/utils.js",
+    "importStyle": "{unpackApi}",
+    "description": "",
+    "lineNumber": 8,
+    "ignore": true,
+    "params": [
+      {
+        "name": "axiosRequest",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "## Readme\n",
+    "longname": "/Users/valentin/Documents/EIP_GitHub/technoservs.js/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"technoservs.js\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"dev\": \"rollup --config rollup.config.js --watch\",\n    \"build\": \"rollup -c\",\n    \"doc\": \"esdoc\",\n    \"test\": \"mocha --require @babel/register --recursive\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/TechnoServsEIP/technoservs.js.git\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"bugs\": {\n    \"url\": \"https://github.com/TechnoServsEIP/technoservs.js/issues\"\n  },\n  \"homepage\": \"https://github.com/TechnoServsEIP/technoservs.js#readme\",\n  \"devDependencies\": {\n    \"@babel/core\": \"^7.11.1\",\n    \"@babel/node\": \"^7.10.5\",\n    \"@babel/polyfill\": \"^7.2.2\",\n    \"@babel/preset-env\": \"^7.11.0\",\n    \"chai\": \"^4.2.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"mocha\": \"^8.1.1\",\n    \"nodemon\": \"^2.0.4\",\n    \"rollup\": \"^2.23.0\",\n    \"rollup-plugin-babel\": \"^4.4.0\",\n    \"rollup-plugin-commonjs\": \"^10.1.0\",\n    \"rollup-plugin-node-resolve\": \"^5.2.0\",\n    \"rollup-plugin-polyfill\": \"^3.0.0\",\n    \"rollup-plugin-uglify\": \"^6.0.4\"\n  },\n  \"dependencies\": {\n    \"@babel/register\": \"^7.10.5\",\n    \"axios\": \"^0.19.2\",\n    \"axios-mock-adapter\": \"^1.18.2\"\n  }\n}\n",
+    "longname": "/Users/valentin/Documents/EIP_GitHub/technoservs.js/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

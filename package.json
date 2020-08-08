@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "rollup --config rollup.config.js --watch",
     "build": "rollup -c",
-    "doc": "esdoc",
+    "docs": "esdoc",
     "test": "mocha --require @babel/register --recursive"
   },
   "repository": {

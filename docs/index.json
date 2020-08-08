@@ -1148,7 +1148,7 @@
     "__docId__": 68,
     "kind": "file",
     "name": "src/error.js",
-    "content": "export class APIError extends Error {\n  /**\n   * Create a new instance of APIError\n   * @param {Number} status HTTP status code of the request\n   * @param {Object} data Body of the HTTP response (parsed as JSON)\n   */\n  constructor(status, data) {\n    let message = `An error occured code ${status}`\n\n    if (data) {\n      message = data\n    }\n    super(message)\n    this._status = status;\n    this._message = message;\n\n    Error.captureStackTrace(this, APIError)\n  }\n\n  /**\n   * HTTP Status code returned by the API\n   * @return {Number}\n   */\n  get status() {\n    return this._status\n  }\n\n  /**\n   * Body of the HTTP response (parsed as JSON)\n   * @return {Object}\n   */\n  get data() {\n    return this._data\n  }\n}\n",
+    "content": "require(\"regenerator-runtime/runtime\");\n\nexport class APIError extends Error {\n  /**\n   * Create a new instance of APIError\n   * @param {Number} status HTTP status code of the request\n   * @param {Object} data Body of the HTTP response (parsed as JSON)\n   */\n  constructor(status, data) {\n    let message = `An error occured code ${status}`\n\n    if (data) {\n      message = data\n    }\n    super(message)\n    this._status = status;\n    this._message = message;\n\n    Error.captureStackTrace(this, APIError)\n  }\n\n  /**\n   * HTTP Status code returned by the API\n   * @return {Number}\n   */\n  get status() {\n    return this._status\n  }\n\n  /**\n   * Body of the HTTP response (parsed as JSON)\n   * @return {Object}\n   */\n  get data() {\n    return this._data\n  }\n}\n",
     "static": true,
     "longname": "/Users/valentin/Documents/EIP_GitHub/technoservs.js/src/error.js",
     "access": "public",
@@ -1167,7 +1167,7 @@
     "importPath": "technoservs.js/src/error.js",
     "importStyle": "{APIError}",
     "description": null,
-    "lineNumber": 1,
+    "lineNumber": 3,
     "undocument": true,
     "interface": false,
     "extends": [
@@ -1185,7 +1185,7 @@
     "longname": "src/error.js~APIError#constructor",
     "access": "public",
     "description": "Create a new instance of APIError",
-    "lineNumber": 7,
+    "lineNumber": 9,
     "params": [
       {
         "nullable": null,
@@ -1218,7 +1218,7 @@
     "longname": "src/error.js~APIError#_status",
     "access": "private",
     "description": null,
-    "lineNumber": 14,
+    "lineNumber": 16,
     "undocument": true,
     "type": {
       "types": [
@@ -1235,7 +1235,7 @@
     "longname": "src/error.js~APIError#_message",
     "access": "private",
     "description": null,
-    "lineNumber": 15,
+    "lineNumber": 17,
     "undocument": true,
     "type": {
       "types": [
@@ -1254,7 +1254,7 @@
     "longname": "src/error.js~APIError#status",
     "access": "public",
     "description": "HTTP Status code returned by the API",
-    "lineNumber": 24,
+    "lineNumber": 26,
     "return": {
       "nullable": null,
       "types": [
@@ -1280,7 +1280,7 @@
     "longname": "src/error.js~APIError#data",
     "access": "public",
     "description": "Body of the HTTP response (parsed as JSON)",
-    "lineNumber": 32,
+    "lineNumber": 34,
     "return": {
       "nullable": null,
       "types": [
@@ -1299,7 +1299,7 @@
     "__docId__": 75,
     "kind": "file",
     "name": "src/index.js",
-    "content": "import Docker from \"./Docker\";\nimport {\n  API\n} from \"./api\";\n\n/**\n * Authentication instance\n * @example\n * const {Auth} = require('technoservs.js');\n *\n *\n const auth = new Auth('your-email', 'your-password')\n *\n * auth.login().then((response) => {\n *  console.log(response)\n * }).catch((e) => {\n *  console.log(e)\n * })\n */\nexport class Auth {\n  /**\n   *\n   * @param {String} email - Email of the user\n   * @param {String} pwd - Password of the user\n   */\n  constructor(email, pwd) {\n    this._email = email;\n    this._pwd = pwd;\n  }\n\n  /**\n   * @return <Promise>\n   */\n  login() {\n    return new API().post(\"/user/login\", {\n      email: this._email,\n      password: this._pwd,\n    });\n  }\n}\n\n/**\n * Technoservs instance\n * @example\n * const {Technoservs} = require('technoservs.js')\n * \n * const ts = new Technoservs('your-token')\n */\nexport class Technoservs {\n  constructor(token) {\n    this._token = token;\n    this.Docker = new Docker(this._token);\n  }\n}\n",
+    "content": "import Docker from \"./Docker\";\nimport { API } from \"./api\";\n\n/**\n * Login method\n * @param {String} email - Email of the user\n * @param {String} pwd - Password of the user\n */\nexport function login() {\n  return new API().post(\"/user/login\", {\n    email: this._email,\n    password: this._pwd,\n  });\n}\n\n/**\n * Technoservs instance\n * @example\n * const {Technoservs} = require('technoservs.js')\n *\n * const ts = new Technoservs('your-token')\n */\nexport class Technoservs {\n  constructor(token) {\n    this._token = token;\n    this.Docker = new Docker(this._token);\n  }\n}\n",
     "static": true,
     "longname": "/Users/valentin/Documents/EIP_GitHub/technoservs.js/src/index.js",
     "access": "public",
@@ -1308,34 +1308,19 @@
   },
   {
     "__docId__": 76,
-    "kind": "class",
-    "name": "Auth",
+    "kind": "function",
+    "name": "login",
     "memberof": "src/index.js",
+    "generator": false,
+    "async": false,
     "static": true,
-    "longname": "src/index.js~Auth",
+    "longname": "src/index.js~login",
     "access": "public",
     "export": true,
     "importPath": "technoservs.js/src/index.js",
-    "importStyle": "{Auth}",
-    "description": "Authentication instance",
-    "examples": [
-      "const {Auth} = require('technoservs.js');\n\n\nconst auth = new Auth('your-email', 'your-password')\n\nauth.login().then((response) => {\n console.log(response)\n}).catch((e) => {\n console.log(e)\n})"
-    ],
-    "lineNumber": 20,
-    "interface": false
-  },
-  {
-    "__docId__": 77,
-    "kind": "constructor",
-    "name": "constructor",
-    "memberof": "src/index.js~Auth",
-    "generator": false,
-    "async": false,
-    "static": false,
-    "longname": "src/index.js~Auth#constructor",
-    "access": "public",
-    "description": "",
-    "lineNumber": 26,
+    "importStyle": "{login}",
+    "description": "Login method",
+    "lineNumber": 9,
     "params": [
       {
         "nullable": null,
@@ -1357,66 +1342,15 @@
         "name": "pwd",
         "description": "Password of the user"
       }
-    ]
-  },
-  {
-    "__docId__": 78,
-    "kind": "member",
-    "name": "_email",
-    "memberof": "src/index.js~Auth",
-    "static": false,
-    "longname": "src/index.js~Auth#_email",
-    "access": "private",
-    "description": null,
-    "lineNumber": 27,
-    "undocument": true,
-    "type": {
-      "types": [
-        "*"
-      ]
-    }
-  },
-  {
-    "__docId__": 79,
-    "kind": "member",
-    "name": "_pwd",
-    "memberof": "src/index.js~Auth",
-    "static": false,
-    "longname": "src/index.js~Auth#_pwd",
-    "access": "private",
-    "description": null,
-    "lineNumber": 28,
-    "undocument": true,
-    "type": {
-      "types": [
-        "*"
-      ]
-    }
-  },
-  {
-    "__docId__": 80,
-    "kind": "method",
-    "name": "login",
-    "memberof": "src/index.js~Auth",
-    "generator": false,
-    "async": false,
-    "static": false,
-    "longname": "src/index.js~Auth#login",
-    "access": "public",
-    "description": "",
-    "lineNumber": 34,
+    ],
     "return": {
-      "nullable": null,
       "types": [
         "*"
-      ],
-      "spread": false,
-      "description": "<Promise>"
-    },
-    "params": []
+      ]
+    }
   },
   {
-    "__docId__": 81,
+    "__docId__": 77,
     "kind": "class",
     "name": "Technoservs",
     "memberof": "src/index.js",
@@ -1430,11 +1364,11 @@
     "examples": [
       "const {Technoservs} = require('technoservs.js')\n\nconst ts = new Technoservs('your-token')"
     ],
-    "lineNumber": 49,
+    "lineNumber": 23,
     "interface": false
   },
   {
-    "__docId__": 82,
+    "__docId__": 78,
     "kind": "constructor",
     "name": "constructor",
     "memberof": "src/index.js~Technoservs",
@@ -1444,11 +1378,11 @@
     "longname": "src/index.js~Technoservs#constructor",
     "access": "public",
     "description": null,
-    "lineNumber": 50,
+    "lineNumber": 24,
     "undocument": true
   },
   {
-    "__docId__": 83,
+    "__docId__": 79,
     "kind": "member",
     "name": "_token",
     "memberof": "src/index.js~Technoservs",
@@ -1456,7 +1390,7 @@
     "longname": "src/index.js~Technoservs#_token",
     "access": "private",
     "description": null,
-    "lineNumber": 51,
+    "lineNumber": 25,
     "undocument": true,
     "type": {
       "types": [
@@ -1465,7 +1399,7 @@
     }
   },
   {
-    "__docId__": 84,
+    "__docId__": 80,
     "kind": "member",
     "name": "Docker",
     "memberof": "src/index.js~Technoservs",
@@ -1473,7 +1407,7 @@
     "longname": "src/index.js~Technoservs#Docker",
     "access": "public",
     "description": null,
-    "lineNumber": 52,
+    "lineNumber": 26,
     "undocument": true,
     "type": {
       "types": [
@@ -1482,10 +1416,10 @@
     }
   },
   {
-    "__docId__": 85,
+    "__docId__": 81,
     "kind": "file",
     "name": "src/utils.js",
-    "content": "import {\n  APIError\n} from \"./error\"\n\n/**\n * @ignore\n */\nexport function unpackApi(axiosRequest) {\n  return new Promise((resolve, reject) => {\n    axiosRequest.then((response) => {\n      resolve(response.data)\n    }).catch((e) => {\n      reject(new APIError(e.responses.status, e.response.data))\n    })\n  })\n}\n",
+    "content": "import {\n  APIError\n} from \"./error\";\n\n/**\n * @ignore\n */\nexport function unpackApi(axiosRequest) {\n  return new Promise((resolve, reject) => {\n    axiosRequest\n      .then((response) => {\n        resolve(response.data);\n      })\n      .catch((e) => {\n        reject(new APIError(e.response.status, e.response.data));\n      });\n  });\n}\n",
     "static": true,
     "longname": "/Users/valentin/Documents/EIP_GitHub/technoservs.js/src/utils.js",
     "access": "public",
@@ -1493,7 +1427,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 86,
+    "__docId__": 82,
     "kind": "function",
     "name": "unpackApi",
     "memberof": "src/utils.js",
@@ -1532,7 +1466,7 @@
   },
   {
     "kind": "packageJSON",
-    "content": "{\n  \"name\": \"technoservs.js\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"dev\": \"rollup --config rollup.config.js --watch\",\n    \"build\": \"rollup -c\",\n    \"doc\": \"esdoc\",\n    \"test\": \"mocha --require @babel/register --recursive\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/TechnoServsEIP/technoservs.js.git\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"bugs\": {\n    \"url\": \"https://github.com/TechnoServsEIP/technoservs.js/issues\"\n  },\n  \"homepage\": \"https://github.com/TechnoServsEIP/technoservs.js#readme\",\n  \"devDependencies\": {\n    \"@babel/core\": \"^7.11.1\",\n    \"@babel/node\": \"^7.10.5\",\n    \"@babel/polyfill\": \"^7.2.2\",\n    \"@babel/preset-env\": \"^7.11.0\",\n    \"chai\": \"^4.2.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"mocha\": \"^8.1.1\",\n    \"nodemon\": \"^2.0.4\",\n    \"rollup\": \"^2.23.0\",\n    \"rollup-plugin-babel\": \"^4.4.0\",\n    \"rollup-plugin-commonjs\": \"^10.1.0\",\n    \"rollup-plugin-node-resolve\": \"^5.2.0\",\n    \"rollup-plugin-polyfill\": \"^3.0.0\",\n    \"rollup-plugin-uglify\": \"^6.0.4\"\n  },\n  \"dependencies\": {\n    \"@babel/register\": \"^7.10.5\",\n    \"axios\": \"^0.19.2\",\n    \"axios-mock-adapter\": \"^1.18.2\"\n  }\n}\n",
+    "content": "{\n  \"name\": \"technoservs.js\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"dev\": \"rollup --config rollup.config.js --watch\",\n    \"build\": \"rollup -c\",\n    \"docs\": \"esdoc\",\n    \"test\": \"mocha --require @babel/register --recursive\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/TechnoServsEIP/technoservs.js.git\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"bugs\": {\n    \"url\": \"https://github.com/TechnoServsEIP/technoservs.js/issues\"\n  },\n  \"homepage\": \"https://github.com/TechnoServsEIP/technoservs.js#readme\",\n  \"devDependencies\": {\n    \"@babel/core\": \"^7.11.1\",\n    \"@babel/node\": \"^7.10.5\",\n    \"@babel/polyfill\": \"^7.2.2\",\n    \"@babel/preset-env\": \"^7.11.0\",\n    \"chai\": \"^4.2.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"mocha\": \"^8.1.1\",\n    \"nodemon\": \"^2.0.4\",\n    \"rollup\": \"^2.23.0\",\n    \"rollup-plugin-babel\": \"^4.4.0\",\n    \"rollup-plugin-commonjs\": \"^10.1.0\",\n    \"rollup-plugin-node-resolve\": \"^5.2.0\",\n    \"rollup-plugin-polyfill\": \"^3.0.0\",\n    \"rollup-plugin-uglify\": \"^6.0.4\"\n  },\n  \"dependencies\": {\n    \"@babel/register\": \"^7.10.5\",\n    \"axios\": \"^0.19.2\",\n    \"axios-mock-adapter\": \"^1.18.2\",\n    \"regenerator-runtime\": \"^0.13.7\"\n  }\n}\n",
     "longname": "/Users/valentin/Documents/EIP_GitHub/technoservs.js/package.json",
     "name": "package.json",
     "static": true,

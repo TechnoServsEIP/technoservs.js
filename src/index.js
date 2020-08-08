@@ -2,39 +2,15 @@ import Docker from "./Docker";
 import { API } from "./api";
 
 /**
- * Authentication instance
- * @example
- * const {Auth} = require('technoservs.js');
- *
- *
- const auth = new Auth('your-email', 'your-password')
- *
- * auth.login().then((response) => {
- *  console.log(response)
- * }).catch((e) => {
- *  console.log(e)
- * })
+ * Login method
+ * @param {String} email - Email of the user
+ * @param {String} pwd - Password of the user
  */
-export class Auth {
-  /**
-   *
-   * @param {String} email - Email of the user
-   * @param {String} pwd - Password of the user
-   */
-  constructor(email, pwd) {
-    this._email = email;
-    this._pwd = pwd;
-  }
-
-  /**
-   * @return <Promise>
-   */
-  login() {
-    return new API().post("/user/login", {
-      email: this._email,
-      password: this._pwd,
-    });
-  }
+export function login() {
+  return new API().post("/user/login", {
+    email: this._email,
+    password: this._pwd,
+  });
 }
 
 /**

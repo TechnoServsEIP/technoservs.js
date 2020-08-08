@@ -31,8 +31,8 @@
     
   <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/api.js~API.html">API</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/error.js~APIError.html">APIError</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/index.js~Auth.html">Auth</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/index.js~Technoservs.html">Technoservs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-login">login</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#docker">Docker</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Docker/index.js~Docker.html">Docker</a></span></span></li>
 </ul>
 </div>
@@ -40,51 +40,25 @@
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/index.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import Docker from &quot;./Docker&quot;;
-import {
-  API
-} from &quot;./api&quot;;
+import { API } from &quot;./api&quot;;
 
 /**
- * Authentication instance
- * @example
- * const {Auth} = require(&apos;technoservs.js&apos;);
- *
- *
- const auth = new Auth(&apos;your-email&apos;, &apos;your-password&apos;)
- *
- * auth.login().then((response) =&gt; {
- *  console.log(response)
- * }).catch((e) =&gt; {
- *  console.log(e)
- * })
+ * Login method
+ * @param {String} email - Email of the user
+ * @param {String} pwd - Password of the user
  */
-export class Auth {
-  /**
-   *
-   * @param {String} email - Email of the user
-   * @param {String} pwd - Password of the user
-   */
-  constructor(email, pwd) {
-    this._email = email;
-    this._pwd = pwd;
-  }
-
-  /**
-   * @return &lt;Promise&gt;
-   */
-  login() {
-    return new API().post(&quot;/user/login&quot;, {
-      email: this._email,
-      password: this._pwd,
-    });
-  }
+export function login() {
+  return new API().post(&quot;/user/login&quot;, {
+    email: this._email,
+    password: this._pwd,
+  });
 }
 
 /**
  * Technoservs instance
  * @example
  * const {Technoservs} = require(&apos;technoservs.js&apos;)
- * 
+ *
  * const ts = new Technoservs(&apos;your-token&apos;)
  */
 export class Technoservs {

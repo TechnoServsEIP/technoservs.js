@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "name": "login",
+    "filePath": "src/index.js",
+    "lines": [
+      {
+        "lineNumber": 3,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 4,
+        "line": " * Login method"
+      },
+      {
+        "lineNumber": 5,
+        "line": " * @param {String} email - Email of the user"
+      },
+      {
+        "lineNumber": 6,
+        "line": " * @param {String} pwd - Password of the user"
+      },
+      {
+        "lineNumber": 7,
+        "line": " */"
+      },
+      {
+        "lineNumber": 8,
+        "line": "export function login() {"
+      }
+    ],
+    "codeParams": [],
+    "docParams": [
+      "email",
+      "pwd"
+    ]
+  }
+]

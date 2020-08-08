@@ -12,12 +12,6 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
-    "technoservs.js/src/index.js~auth",
-    "class/src/index.js~Auth.html",
-    "<span>Auth</span> <span class=\"search-result-import-path\">technoservs.js/src/index.js</span>",
-    "class"
-  ],
-  [
     "technoservs.js/src/docker/index.js~docker",
     "class/src/Docker/index.js~Docker.html",
     "<span>Docker</span> <span class=\"search-result-import-path\">technoservs.js/src/Docker/index.js</span>",
@@ -28,6 +22,12 @@ window.esdocSearchIndex = [
     "class/src/index.js~Technoservs.html",
     "<span>Technoservs</span> <span class=\"search-result-import-path\">technoservs.js/src/index.js</span>",
     "class"
+  ],
+  [
+    "technoservs.js/src/index.js~login",
+    "function/index.html#static-function-login",
+    "<span>login</span> <span class=\"search-result-import-path\">technoservs.js/src/index.js</span>",
+    "function"
   ],
   [
     "src/.external-ecmascript.js~array",
@@ -454,30 +454,6 @@ window.esdocSearchIndex = [
     "file/src/index.js.html",
     "src/index.js",
     "file"
-  ],
-  [
-    "src/index.js~auth#_email",
-    "class/src/index.js~Auth.html#instance-member-_email",
-    "src/index.js~Auth#_email",
-    "member"
-  ],
-  [
-    "src/index.js~auth#_pwd",
-    "class/src/index.js~Auth.html#instance-member-_pwd",
-    "src/index.js~Auth#_pwd",
-    "member"
-  ],
-  [
-    "src/index.js~auth#constructor",
-    "class/src/index.js~Auth.html#instance-constructor-constructor",
-    "src/index.js~Auth#constructor",
-    "method"
-  ],
-  [
-    "src/index.js~auth#login",
-    "class/src/index.js~Auth.html#instance-method-login",
-    "src/index.js~Auth#login",
-    "method"
   ],
   [
     "src/index.js~technoservs#docker",

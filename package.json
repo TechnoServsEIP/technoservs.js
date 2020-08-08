@@ -2,7 +2,7 @@
   "name": "technoservs.js",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/technoservs.js",
   "scripts": {
     "dev": "rollup --config rollup.config.js --watch",
     "build": "rollup -c",

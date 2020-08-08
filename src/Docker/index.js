@@ -110,4 +110,12 @@ export default class Docker {
       },
     });
   }
+
+  start(user_id, container_id) {
+    return this.API.post('/docker/start', {
+      user_id: user_id,
+      container_id: container_id,
+    })
+
+  }
 }

@@ -7,7 +7,8 @@
     "dev": "rollup --config rollup.config.js --watch",
     "build": "rollup -c",
     "docs": "esdoc",
-    "test": "mocha --require @babel/register --recursive"
+    "test": "mocha --require @babel/register --recursive",
+    "prepublish": "mocha --require @babel/register --recursive && rollup -c"
   },
   "repository": {
     "type": "git",

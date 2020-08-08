@@ -6,10 +6,10 @@ import { API } from "./api";
  * @param {String} email - Email of the user
  * @param {String} pwd - Password of the user
  */
-export function login() {
+export function login(email, pwd) {
   return new API().post("/user/login", {
-    email: this._email,
-    password: this._pwd,
+    email: email,
+    password: pwd,
   });
 }
 

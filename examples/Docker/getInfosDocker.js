@@ -4,11 +4,11 @@ const {
 
 const technoservs = new Technoservs(process.env.TS_API_TOKEN);
 
-technoservs.Docker.infos({
-  user_id: "2",
-  container_id: "c5b0ed645b110533246047a303293e079c00bd4265ab4bdf108755c0b95f83d3"
-}).then(response => {
-  console.log(response.data)
+technoservs.Docker.infos(
+  "2",
+  "b12f3a053e4ff8825336ab845d58e6e18f2aaf18a09e2e7cd07dcae0db7b0391"
+).then(response => {
+  console.log(response)
 }).catch(e => {
   console.log(e)
 })

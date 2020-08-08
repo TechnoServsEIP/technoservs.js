@@ -4,11 +4,11 @@ const {
 
 const technoservs = new Technoservs(process.env.TS_API_TOKEN);
 
-technoservs.Docker.delete({
-  user_id: "2",
-  container_id: "eaa3f413198dab40923d3bb2cba3ba8a26da95c56b126ee5a8a0054a657e2546"
-}).then(response => {
-  console.log(response.data)
+technoservs.Docker.delete(
+  "2",
+  "c5b0ed645b110533246047a303293e079c00bd4265ab4bdf108755c0b95f83d3"
+).then(response => {
+  console.log(response)
 }).catch(e => {
   console.log(e)
 })

@@ -372,6 +372,12 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/docker/index.js~docker#start",
+    "class/src/Docker/index.js~Docker.html#instance-method-start",
+    "src/Docker/index.js~Docker#start",
+    "method"
+  ],
+  [
     "src/docker/index.js~docker#stop",
     "class/src/Docker/index.js~Docker.html#instance-method-stop",
     "src/Docker/index.js~Docker#stop",

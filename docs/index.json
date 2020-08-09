@@ -567,7 +567,7 @@
     "__docId__": 48,
     "kind": "file",
     "name": "src/Docker/index.js",
-    "content": "import {\n  API\n} from \"../api\";\n\nexport default class Docker {\n  /**\n   * @param {String} token\n   */\n  constructor(token) {\n    this._token = token;\n    this.API = new API(this._token);\n  }\n\n  /**\n   * List the server of a specific user\n   * @param {String} user_id \n   */\n  list(user_id) {\n    return this.API.post(\"/docker/list\", {\n      user_id: user_id,\n    });\n  }\n\n  /**\n   * Create a server\n   * @param {String} user_id The id of the user\n   * @param {String} game The game to create the server \n   * @param {String} server_name The name of your server\n   */\n  create(user_id, game, server_name) {\n    return this.API.post(\"/docker/create\", {\n      user_id: user_id,\n      game: game,\n      server_name: server_name,\n    });\n  }\n\n  /**\n   * Stop a server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container\n   */\n  stop(user_id, container_id) {\n    return this.API.post(\"/docker/stop\", {\n      user_id: user_id,\n      container_id: container_id,\n    });\n  }\n\n  /**\n   * Delete a server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container\n   */\n  delete(user_id, container_id) {\n    return this.API.post(\"/docker/delete\", {\n      user_id: user_id,\n      container_id: container_id,\n    });\n  }\n\n  /**\n   * Get the logs of a server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container\n   */\n  logs(user_id, container_id) {\n    return this.API.post(\"/docker/logs\", {\n      user_id: user_id,\n      container_id: container_id,\n    });\n  }\n\n  /**\n   * Get the info of a server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container\n   */\n  infos(user_id, container_id) {\n    return this.API.post(\"/docker/infos\", {\n      user_id: user_id,\n      container_id: container_id,\n    });\n  }\n\n  /**\n   * Update a server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container to update\n   * @param {String} server_name The new name of the server\n   */\n  update(user_id, container_id, server_name) {\n    return this.API.post(\"/docker/update\", {\n      user_id: user_id,\n      container_id: container_id,\n      server_name: server_name,\n    });\n  }\n\n  /**\n   * Get the players online on a specific server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container\n   */\n  playersOnline(user_id, container_id) {\n    return this.API.get(\"/docker/playersonline\", {\n      data: {\n        user_id: user_id,\n        container_id: container_id,\n      },\n    });\n  }\n}\n",
+    "content": "import {\n  API\n} from \"../api\";\n\nexport default class Docker {\n  /**\n   * @param {String} token\n   */\n  constructor(token) {\n    this._token = token;\n    this.API = new API(this._token);\n  }\n\n  /**\n   * List the server of a specific user\n   * @param {String} user_id \n   */\n  list(user_id) {\n    return this.API.post(\"/docker/list\", {\n      user_id: user_id,\n    });\n  }\n\n  /**\n   * Create a server\n   * @param {String} user_id The id of the user\n   * @param {String} game The game to create the server \n   * @param {String} server_name The name of your server\n   */\n  create(user_id, game, server_name) {\n    return this.API.post(\"/docker/create\", {\n      user_id: user_id,\n      game: game,\n      server_name: server_name,\n    });\n  }\n\n  /**\n   * Stop a server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container\n   */\n  stop(user_id, container_id) {\n    return this.API.post(\"/docker/stop\", {\n      user_id: user_id,\n      container_id: container_id,\n    });\n  }\n\n  /**\n   * Delete a server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container\n   */\n  delete(user_id, container_id) {\n    return this.API.post(\"/docker/delete\", {\n      user_id: user_id,\n      container_id: container_id,\n    });\n  }\n\n  /**\n   * Get the logs of a server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container\n   */\n  logs(user_id, container_id) {\n    return this.API.post(\"/docker/logs\", {\n      user_id: user_id,\n      container_id: container_id,\n    });\n  }\n\n  /**\n   * Get the info of a server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container\n   */\n  infos(user_id, container_id) {\n    return this.API.post(\"/docker/infos\", {\n      user_id: user_id,\n      container_id: container_id,\n    });\n  }\n\n  /**\n   * Update a server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container to update\n   * @param {String} server_name The new name of the server\n   */\n  update(user_id, container_id, server_name) {\n    return this.API.post(\"/docker/update\", {\n      user_id: user_id,\n      container_id: container_id,\n      server_name: server_name,\n    });\n  }\n\n  /**\n   * Get the players online on a specific server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container\n   */\n  playersOnline(user_id, container_id) {\n    return this.API.get(\"/docker/playersonline\", {\n      data: {\n        user_id: user_id,\n        container_id: container_id,\n      },\n    });\n  }\n\n  /**\n   * Start a specific server\n   * @param {String} user_id The id of the user\n   * @param {String} container_id The id of the container\n   */\n  start(user_id, container_id) {\n    return this.API.post('/docker/start', {\n      user_id: user_id,\n      container_id: container_id,\n    })\n\n  }\n}\n",
     "static": true,
     "longname": "/Users/valentin/Documents/EIP_GitHub/technoservs.js/src/Docker/index.js",
     "access": "public",
@@ -981,9 +981,49 @@
   },
   {
     "__docId__": 61,
+    "kind": "method",
+    "name": "start",
+    "memberof": "src/Docker/index.js~Docker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Docker/index.js~Docker#start",
+    "access": "public",
+    "description": "Start a specific server",
+    "lineNumber": 119,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "user_id",
+        "description": "The id of the user"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "container_id",
+        "description": "The id of the container"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
     "kind": "file",
     "name": "src/api.js",
-    "content": "const axios = require(\"axios\");\n\n/**\n * API instance\n */\nexport class API {\n  /**\n   *\n   * @param {String} token - Bearer token\n   */\n  constructor(token) {\n    this._axios = axios.create({\n      baseURL:\n        \"https://x2021alsablue1371139462001.northeurope.cloudapp.azure.com:9096\",\n      headers: {\n        Authorization: `Bearer ${token}`,\n      },\n    });\n  }\n\n  /**\n   * Post request\n   * @param {String} path\n   * @param {Object} body\n   * @return {Promise} Pormise returned by the axios instance\n   */\n  post(path, body) {\n    return this._axios.post(path, body);\n  }\n\n  get(path, params) {\n    return this._axios.get(path, params);\n  }\n}\n",
+    "content": "const axios = require(\"axios\");\nimport {\n  unpackApi\n} from \"./utils\";\n\n/**\n * API instance\n */\nexport class API {\n  /**\n   *\n   * @param {String} token - Bearer token\n   */\n  constructor(token) {\n    this._axios = axios.create({\n      baseURL: \"https://x2021alsablue1371139462001.northeurope.cloudapp.azure.com:9096\",\n      headers: {\n        Authorization: `Bearer ${token}`,\n      },\n    });\n  }\n\n  /**\n   * Post request\n   * @param {String} path\n   * @param {Object} body\n   * @return {Promise} Pormise returned by the axios instance\n   */\n  post(path, body) {\n    return unpackApi(this._axios.post(path, body));\n  }\n\n  get(path, params) {\n    return unpackApi(this._axios.get(path, params));\n  }\n}\n",
     "static": true,
     "longname": "/Users/valentin/Documents/EIP_GitHub/technoservs.js/src/api.js",
     "access": "public",
@@ -991,7 +1031,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 62,
+    "__docId__": 63,
     "kind": "variable",
     "name": "axios",
     "memberof": "src/api.js",
@@ -1012,7 +1052,7 @@
     "ignore": true
   },
   {
-    "__docId__": 63,
+    "__docId__": 64,
     "kind": "class",
     "name": "API",
     "memberof": "src/api.js",
@@ -1023,11 +1063,11 @@
     "importPath": "technoservs.js/src/api.js",
     "importStyle": "{API}",
     "description": "API instance",
-    "lineNumber": 6,
+    "lineNumber": 9,
     "interface": false
   },
   {
-    "__docId__": 64,
+    "__docId__": 65,
     "kind": "constructor",
     "name": "constructor",
     "memberof": "src/api.js~API",
@@ -1037,7 +1077,7 @@
     "longname": "src/api.js~API#constructor",
     "access": "public",
     "description": "",
-    "lineNumber": 11,
+    "lineNumber": 14,
     "params": [
       {
         "nullable": null,
@@ -1052,7 +1092,7 @@
     ]
   },
   {
-    "__docId__": 65,
+    "__docId__": 66,
     "kind": "member",
     "name": "_axios",
     "memberof": "src/api.js~API",
@@ -1060,7 +1100,7 @@
     "longname": "src/api.js~API#_axios",
     "access": "private",
     "description": null,
-    "lineNumber": 12,
+    "lineNumber": 15,
     "undocument": true,
     "type": {
       "types": [
@@ -1069,7 +1109,7 @@
     }
   },
   {
-    "__docId__": 66,
+    "__docId__": 67,
     "kind": "method",
     "name": "post",
     "memberof": "src/api.js~API",
@@ -1079,7 +1119,7 @@
     "longname": "src/api.js~API#post",
     "access": "public",
     "description": "Post request",
-    "lineNumber": 27,
+    "lineNumber": 29,
     "params": [
       {
         "nullable": null,
@@ -1112,7 +1152,7 @@
     }
   },
   {
-    "__docId__": 67,
+    "__docId__": 68,
     "kind": "method",
     "name": "get",
     "memberof": "src/api.js~API",
@@ -1122,7 +1162,7 @@
     "longname": "src/api.js~API#get",
     "access": "public",
     "description": null,
-    "lineNumber": 31,
+    "lineNumber": 33,
     "undocument": true,
     "params": [
       {
@@ -1145,7 +1185,7 @@
     }
   },
   {
-    "__docId__": 68,
+    "__docId__": 69,
     "kind": "file",
     "name": "src/error.js",
     "content": "require(\"regenerator-runtime/runtime\");\n\nexport class APIError extends Error {\n  /**\n   * Create a new instance of APIError\n   * @param {Number} status HTTP status code of the request\n   * @param {Object} data Body of the HTTP response (parsed as JSON)\n   */\n  constructor(status, data) {\n    let message = `An error occured code ${status}`\n\n    if (data) {\n      message = data\n    }\n    super(message)\n    this._status = status;\n    this._message = message;\n\n    Error.captureStackTrace(this, APIError)\n  }\n\n  /**\n   * HTTP Status code returned by the API\n   * @return {Number}\n   */\n  get status() {\n    return this._status\n  }\n\n  /**\n   * Body of the HTTP response (parsed as JSON)\n   * @return {Object}\n   */\n  get data() {\n    return this._data\n  }\n}\n",
@@ -1156,7 +1196,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 69,
+    "__docId__": 70,
     "kind": "class",
     "name": "APIError",
     "memberof": "src/error.js",
@@ -1175,7 +1215,7 @@
     ]
   },
   {
-    "__docId__": 70,
+    "__docId__": 71,
     "kind": "constructor",
     "name": "constructor",
     "memberof": "src/error.js~APIError",
@@ -1210,7 +1250,7 @@
     ]
   },
   {
-    "__docId__": 71,
+    "__docId__": 72,
     "kind": "member",
     "name": "_status",
     "memberof": "src/error.js~APIError",
@@ -1227,7 +1267,7 @@
     }
   },
   {
-    "__docId__": 72,
+    "__docId__": 73,
     "kind": "member",
     "name": "_message",
     "memberof": "src/error.js~APIError",
@@ -1244,7 +1284,7 @@
     }
   },
   {
-    "__docId__": 73,
+    "__docId__": 74,
     "kind": "get",
     "name": "status",
     "memberof": "src/error.js~APIError",
@@ -1270,7 +1310,7 @@
     }
   },
   {
-    "__docId__": 74,
+    "__docId__": 75,
     "kind": "get",
     "name": "data",
     "memberof": "src/error.js~APIError",
@@ -1296,10 +1336,10 @@
     }
   },
   {
-    "__docId__": 75,
+    "__docId__": 76,
     "kind": "file",
     "name": "src/index.js",
-    "content": "import Docker from \"./Docker\";\nimport { API } from \"./api\";\n\n/**\n * Login method\n * @param {String} email - Email of the user\n * @param {String} pwd - Password of the user\n */\nexport function login() {\n  return new API().post(\"/user/login\", {\n    email: this._email,\n    password: this._pwd,\n  });\n}\n\n/**\n * Technoservs instance\n * @example\n * const {Technoservs} = require('technoservs.js')\n *\n * const ts = new Technoservs('your-token')\n */\nexport class Technoservs {\n  constructor(token) {\n    this._token = token;\n    this.Docker = new Docker(this._token);\n  }\n}\n",
+    "content": "import Docker from \"./Docker\";\nimport { API } from \"./api\";\n\n/**\n * Login method\n * @param {String} email - Email of the user\n * @param {String} pwd - Password of the user\n */\nexport function login(email, pwd) {\n  return new API().post(\"/user/login\", {\n    email: email,\n    password: pwd,\n  });\n}\n\n/**\n * Technoservs instance\n * @example\n * const {Technoservs} = require('technoservs.js')\n *\n * const ts = new Technoservs('your-token')\n */\nexport class Technoservs {\n  constructor(token) {\n    this._token = token;\n    this.Docker = new Docker(this._token);\n  }\n}\n",
     "static": true,
     "longname": "/Users/valentin/Documents/EIP_GitHub/technoservs.js/src/index.js",
     "access": "public",
@@ -1307,7 +1347,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 76,
+    "__docId__": 77,
     "kind": "function",
     "name": "login",
     "memberof": "src/index.js",
@@ -1350,7 +1390,7 @@
     }
   },
   {
-    "__docId__": 77,
+    "__docId__": 78,
     "kind": "class",
     "name": "Technoservs",
     "memberof": "src/index.js",
@@ -1368,7 +1408,7 @@
     "interface": false
   },
   {
-    "__docId__": 78,
+    "__docId__": 79,
     "kind": "constructor",
     "name": "constructor",
     "memberof": "src/index.js~Technoservs",
@@ -1382,7 +1422,7 @@
     "undocument": true
   },
   {
-    "__docId__": 79,
+    "__docId__": 80,
     "kind": "member",
     "name": "_token",
     "memberof": "src/index.js~Technoservs",
@@ -1399,7 +1439,7 @@
     }
   },
   {
-    "__docId__": 80,
+    "__docId__": 81,
     "kind": "member",
     "name": "Docker",
     "memberof": "src/index.js~Technoservs",
@@ -1416,7 +1456,7 @@
     }
   },
   {
-    "__docId__": 81,
+    "__docId__": 82,
     "kind": "file",
     "name": "src/utils.js",
     "content": "import {\n  APIError\n} from \"./error\";\n\n/**\n * @ignore\n */\nexport function unpackApi(axiosRequest) {\n  return new Promise((resolve, reject) => {\n    axiosRequest\n      .then((response) => {\n        resolve(response.data);\n      })\n      .catch((e) => {\n        reject(new APIError(e.response.status, e.response.data));\n      });\n  });\n}\n",
@@ -1427,7 +1467,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 82,
+    "__docId__": 83,
     "kind": "function",
     "name": "unpackApi",
     "memberof": "src/utils.js",
@@ -1466,7 +1506,7 @@
   },
   {
     "kind": "packageJSON",
-    "content": "{\n  \"name\": \"technoservs.js\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"dev\": \"rollup --config rollup.config.js --watch\",\n    \"build\": \"rollup -c\",\n    \"docs\": \"esdoc\",\n    \"test\": \"mocha --require @babel/register --recursive\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/TechnoServsEIP/technoservs.js.git\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"bugs\": {\n    \"url\": \"https://github.com/TechnoServsEIP/technoservs.js/issues\"\n  },\n  \"homepage\": \"https://github.com/TechnoServsEIP/technoservs.js#readme\",\n  \"devDependencies\": {\n    \"@babel/core\": \"^7.11.1\",\n    \"@babel/node\": \"^7.10.5\",\n    \"@babel/polyfill\": \"^7.2.2\",\n    \"@babel/preset-env\": \"^7.11.0\",\n    \"chai\": \"^4.2.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"mocha\": \"^8.1.1\",\n    \"nodemon\": \"^2.0.4\",\n    \"rollup\": \"^2.23.0\",\n    \"rollup-plugin-babel\": \"^4.4.0\",\n    \"rollup-plugin-commonjs\": \"^10.1.0\",\n    \"rollup-plugin-node-resolve\": \"^5.2.0\",\n    \"rollup-plugin-polyfill\": \"^3.0.0\",\n    \"rollup-plugin-uglify\": \"^6.0.4\"\n  },\n  \"dependencies\": {\n    \"@babel/register\": \"^7.10.5\",\n    \"axios\": \"^0.19.2\",\n    \"axios-mock-adapter\": \"^1.18.2\",\n    \"regenerator-runtime\": \"^0.13.7\"\n  }\n}\n",
+    "content": "{\n  \"name\": \"technoservs.js\",\n  \"version\": \"1.0.5\",\n  \"description\": \"\",\n  \"main\": \"dist/technoservs.js\",\n  \"scripts\": {\n    \"dev\": \"rollup --config rollup.config.js --watch\",\n    \"build\": \"rollup -c\",\n    \"docs\": \"esdoc\",\n    \"test\": \"mocha --require @babel/register --recursive\",\n    \"prepublish\": \"mocha --require @babel/register --recursive && rollup -c\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/TechnoServsEIP/technoservs.js.git\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"bugs\": {\n    \"url\": \"https://github.com/TechnoServsEIP/technoservs.js/issues\"\n  },\n  \"homepage\": \"https://github.com/TechnoServsEIP/technoservs.js#readme\",\n  \"devDependencies\": {\n    \"@babel/core\": \"^7.11.1\",\n    \"@babel/node\": \"^7.10.5\",\n    \"@babel/polyfill\": \"^7.2.2\",\n    \"@babel/preset-env\": \"^7.11.0\",\n    \"chai\": \"^4.2.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"mocha\": \"^8.1.1\",\n    \"nodemon\": \"^2.0.4\",\n    \"rollup\": \"^2.23.0\",\n    \"rollup-plugin-babel\": \"^4.4.0\",\n    \"rollup-plugin-commonjs\": \"^10.1.0\",\n    \"rollup-plugin-node-resolve\": \"^5.2.0\",\n    \"rollup-plugin-polyfill\": \"^3.0.0\",\n    \"rollup-plugin-uglify\": \"^6.0.4\"\n  },\n  \"dependencies\": {\n    \"@babel/register\": \"^7.10.5\",\n    \"axios\": \"^0.19.2\",\n    \"axios-mock-adapter\": \"^1.18.2\",\n    \"regenerator-runtime\": \"^0.13.7\"\n  }\n}\n",
     "longname": "/Users/valentin/Documents/EIP_GitHub/technoservs.js/package.json",
     "name": "package.json",
     "static": true,

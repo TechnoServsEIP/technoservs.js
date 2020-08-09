@@ -111,6 +111,11 @@ export default class Docker {
     });
   }
 
+  /**
+   * Start a specific server
+   * @param {String} user_id The id of the user
+   * @param {String} container_id The id of the container
+   */
   start(user_id, container_id) {
     return this.API.post('/docker/start', {
       user_id: user_id,

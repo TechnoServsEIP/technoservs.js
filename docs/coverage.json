@@ -1,11 +1,11 @@
 {
-  "coverage": "60%",
-  "expectCount": 30,
-  "actualCount": 18,
+  "coverage": "61.29%",
+  "expectCount": 31,
+  "actualCount": 19,
   "files": {
     "src/Docker/index.js": {
-      "expectCount": 12,
-      "actualCount": 9,
+      "expectCount": 13,
+      "actualCount": 10,
       "undocumentLines": [
         5,
         10,
@@ -17,8 +17,8 @@
       "actualCount": 3,
       "undocumentLines": [
         1,
-        12,
-        31
+        15,
+        33
       ]
     },
     "src/error.js": {

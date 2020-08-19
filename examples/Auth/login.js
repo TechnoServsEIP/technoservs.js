@@ -1,7 +1,7 @@
 const technoservs = require('../../dist/technoservs')
 
 technoservs.login().then(response => {
-  console.log(response.data)
+  console.log(response)
 }).catch(e => {
   console.log(e)
 })

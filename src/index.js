@@ -1,5 +1,7 @@
 import Docker from "./Docker";
-import { API } from "./api";
+import {
+  API
+} from "./api";
 
 /**
  * Login method
@@ -9,6 +11,18 @@ import { API } from "./api";
 export function login(email, pwd) {
   return new API().post("/user/login", {
     email: email,
+    password: pwd,
+  });
+}
+
+/**
+ * Register method
+ * @param {String} email - Email of the user
+ * @param {String} pwd - Password of the user
+ */
+export function register(email, pwd) {
+  return new API().post("/user/new", {
+    Email: email,
     password: pwd,
   });
 }

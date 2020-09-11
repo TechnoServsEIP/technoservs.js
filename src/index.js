@@ -1,4 +1,5 @@
 import Docker from "./Docker";
+import GameServer from "./GameServer"
 import {
   API
 } from "./api";
@@ -38,5 +39,6 @@ export class Technoservs {
   constructor(token) {
     this._token = token;
     this.Docker = new Docker(this._token);
+    this.GameServer = new GameServer(this._token);
   }
 }

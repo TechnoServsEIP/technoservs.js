@@ -11,12 +11,9 @@ export default class GameServer {
     this.API = new API(this._token);
   }
 
-  getProperties(user_id, container_id) {
+  getProperties(data) {
     return this.API.get('/minecraft/serverproperties', {
-      data: {
-        user_id: user_id,
-        container_id: container_id
-      }
+      data
     })
   }
 
